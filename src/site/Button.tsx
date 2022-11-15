@@ -4,7 +4,6 @@ type ButtonType = {
     callback: () => void
 }
 
-
 export const Button = (props:ButtonType) => {
     const onClickHandler = () => {
         props.callback()
